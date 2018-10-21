@@ -47,14 +47,11 @@ public class Binary {
         System.out.printf("%10s\n",Integer.toBinaryString(b));
         System.out.println("---------------");
         System.out.printf("%10s\n",Integer.toBinaryString(c));
-
-
     }
 
     static int calculate (int a, int b) {
         return a & b;
-
-
     }
 
 }
+

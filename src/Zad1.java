@@ -1,4 +1,4 @@
-public class Zad1 {
+public class Zad1  {
 // zad 1
     public static void main(String[] args) {
         int inwestycja =14000;
@@ -16,6 +16,8 @@ public class Zad1 {
 //        System.out.println("Wartosc po trzecim roku: " + rok3+ " zl");
         System.out.println(wynik);
 
+        System.out.printf("%.2f zl",wynik); // podajemy ile m-sc po przecinku i f bo chodzi o zmiennioprzecinkowy
+
     }
 
     static double calc ( int inwestycja, double rok1, double rok2, double rok3){
@@ -25,4 +27,5 @@ public class Zad1 {
     }
 
 }
+
 
